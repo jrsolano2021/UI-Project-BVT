@@ -1,0 +1,56 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+#container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    background-color: whitesmoke;
+    height: 30%;
+    width: 50%;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 180px;
+    max-height: 220px;
+    border-radius: 20px;
+    padding:20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.niceinput {
+    border: 1px solid rgba(0,0,0,0.24);
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    padding: 5px;
+}
+.niceinput:focus {
+    outline: 0em;
+}
+.niceinput::placeholder {
+    color: black;
+    opacity: 40%;
+}
+.signinbutton{
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border-color: transparent;
+    border-radius: 20px;
+    max-height: 40px;
+    min-height: 20px;
+    height: 40px;
+}
